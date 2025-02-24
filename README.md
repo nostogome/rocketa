@@ -105,13 +105,15 @@
 - `nostogome/rocketa` as the default repo for tooling and structure (incase it breaks out into actually needing a dependency system!)
   - Pull requests
     - Maven central rules (e.g. no overwriting)
-- Spirit of `rocketa` - we're all evolving!
+
+## Spirit of rocketa
+  We're all evolving!
   - Strip LLM responses (strip: `$ 'sed '/^<[^-]/d' chat.md`)
-    - caveat: ***critiques of LLMs themselves** obviously require the AI response inclusion
-    - Follow your `topical repo` guidelines, but the `rocketa default spirit` is `stripped` to enable fast-track automated PR flow with clean input.
-      - again, `topical`/`default`: contributions to repo's `README.md` must be mimimal (adding a link? only add 1 line - enables fasttracking/automation of PRs)
-      - often, one or two *raw AI responses* using: `<`, are included in any conversation of substance/length.  So,
-        - If you are issuing PRs, explain the `<` lines upfront, so the human-merger can quickly *triage*
+    - caveat: ***critiques of AI output*** obviously require the AI response inclusion
+    - Follow your `topical repo` guidelines, but the **rocketa** default ***spirit*** is "***stripped***" to enable fast-track automated PR flow with clean input.
+      - Links added to README.md: again `topical`(precendence)/`default` ->  contributions to repo's `README.md` should be mimimal (i.e, only add 1 line - enables fasttracking/automation of PRs)
+      - *Be upfront*:  often, a few *raw AI responses* using: `<`, are included in any conversation of substance/length. So,
+        - If you are issuing PRs, explain the `<` lines ***upfront***, so the human-merger can quickly *triage*
 
 ## Repository Goals'
  - *"This repo is not a topical repo, but may contain sample `chats`, `conversations` and `prompts`, or with itself as the subject"*
