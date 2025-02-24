@@ -91,8 +91,8 @@
 
 ## Conventions summary
 - A *repo* of *versioned* `conversations`, `chats` and `prompts` that conforms to:
-- A very simple [format](https://github.com/nostogome/rocketa/format.md) for `chats`, `conversations` and other releases, like `prompts`, extendable.
-Following the [`frontmatter`](https://github.com/nostogome/rocketa/README.md#format-file) and a **summary** **markdown** sections` See [Format file](https://github.com/nostogome/rocketa/README.md#format-file), the conversations are easily viewable in markdown readers, with the following `reservations`
+- A very simple [format](https://github.com/nostogome/rocketa/tree/main/format.md) for `chats`, `conversations` and other releases, like `prompts`, extendable.
+Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/README.md#format-file) and a **summary** **markdown** sections` See [Format file](https://github.com/nostogome/rocketa/tree/main/README.md#format-file), the conversations are easily viewable in markdown readers, with the following `reservations`
 ```
   '>' to AI (the questions)
   '<' from AI (raw)
@@ -119,8 +119,8 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/README.md#for
 
 ## Repository Goals'
  - *"This repo is not a topical repo, but may contain sample `chats`, `conversations` and `prompts`, or with itself as the subject"*
-    - See [repository.md](repository.md) for more information
-- The main goal of this project is *to support* `topical repos` having a main goal of the [`prompts`](https://github.com/nostogome/rocketa/prompts) 'artifacts' directory
+    - See [repository.md](tree/main/repository.md) for more information
+- The main goal of this project is *to support* `topical repos` having a main goal of the [`prompts`](https://github.com/nostogome/rocketa/tree/main/prompts) 'artifacts' directory
 
 ## Details
 - ***Prompts*** = main goal ([`./prompts`](prompts/)) 
