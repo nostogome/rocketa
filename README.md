@@ -24,6 +24,10 @@
 # What's this repo, though?
 > This is simply a base repo for a structure of `topical` repos (known as [`compliant`](#compilant-repos)), a group of conventions that *enable tools* by leveraging globally-namespaced versioning (which among other things, enables `dependency management`, including `automated gathering`)  
 
+
+>> **Ready to create your own `topical repo`**? 
+ - git clone [rocketa-template](https://github.com/nostogome/rocketa-template) and replace the TOPICAL_* placeholders
+
 # What is the goal?
  - Be a base for a `topical repository` ecosystem - conventions and tools combined with a global versioning strategy allow tools to do the work
 
