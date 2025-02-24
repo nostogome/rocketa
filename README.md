@@ -91,6 +91,7 @@
 ## Conventions summary - rocketa
 - A *repo* of *versioned* `conversations`, `chats` and `prompts` that conforms to:
 - A very simple [format](https://github.com/nostogome/rocketa/format.md) for `chats`, `conversations` and other releases, like `prompts`, extendable.
+Following the [`frontmatter`](https://github.com/nostogome/rocketa/README.md#format-file) and a **summary** **markdown** sections` See [Format file](https://github.com/nostogome/rocketa/README.md#format-file), the conversations are easily viewable in markdown readers, with the following `reservations`
 ```
   '>' to AI (the questions)
   '<' from AI (raw)
@@ -254,7 +255,7 @@ Links to projects that are > ~80% direct result of using existing (i.e. *committ
   | `tools.md`         | T | rocketa & topical | / | description of tools available | extend / override tool information | describe tools available in base `nostogome/rocketa` | 
   | `summary.md`       | T/C | rocketa & topical | *optional* Any/All level in `release dirs` | Manual summary, concatenated by doc tools, optional frontmatter | non-parse-tooling/concatenation | same as thirdparty |
   | [`metadata.md`](#metadata-detail)      | T | rocketa & topical | *optional* Any/All level in `release dirs` | compliant frontmatter key/values, citations oriented | parse/tooling | same as thirdparty |
-  | `format.md`        | Y | rocketa & topical | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
+  | [`format.md`](#format-file)        | Y | rocketa & topical | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
   | [`current`](#pointer-file)        | T | rocketa & topical | Release dirs |  | 1-line file; contains 1 entry to most-recent subdir | Y/tools| none |
 
 `T` = `top` (aka `frontmatter`)
@@ -284,6 +285,31 @@ org.nobodyknew:artifactB
 [submit **minimal** pull requests](https://docs.github.com/en/pull-requests)
 
 You may be interested in [frontmatter keys](#frontmatter-keys)
+
+## Format file
+Basic reservations and recommendations for the `chats`, `conversations` and `prompts` release files, commonly named `chat.md`, `prompt.md`
+
+ - [Compliant](#compilant-repos) `topical repositories` will waive (if not **stay updated with**) `reservations` made by the **master** `format.md`: [https://github.com/nostogome/rocketa/format.md](https://github.com/nostogome/rocketa/format.md). 
+ - Topical repo *root* `/format.md` can be modified in `topical repositories`, and may exist at `group` and `artifact` *levels*
+
+ - Common layout: markdown sections (i.e. "---")
+   - frontmatter section
+     - see [frontmatter keys](#frontmatter-keys)
+     - extendable by version-tagged schema (*schema-id*)
+     - machine processable (i.e. models-tested: com.openai.gpt-4o )
+   - summary section
+     - human readable introduction/commentary/summary/conclusions
+   - content section
+     - Usually prefaced with a top-level markdown header (e.g. "# Conversation" )
+     - a stream of `>`, `<`, `<-`, `<--` 
+     ```
+     `>` to AI (questions)
+     `<` from AI (raw)
+     `<-` summary
+     `<--` reaction
+     ```
+
+      
 
 ## Pointer file
 At any level in the `coordinate` may exist a file named `current` whose the contents (1 line) is the name of a subdirectory
