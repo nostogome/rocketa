@@ -12,7 +12,7 @@
 ~***Margaret Beechan***, *CEO* ***Faceoff Support Solutions*** *fake, but...
 
 ---
-> "Still maintaining a `FAQ` in *2025*!?  Still on *old* web forums?  Still not letting your ecosystem document for itself? Still not letting customers help others?  We hadn't realized the overhead of curating our forums and documents - what to release, where, how - frustrating ourselves and our customers.  Now the customer is always right - they can fork and share, and we can curate our side.  With the introduction of AI, the *answers* to the questions can evolve. Also, our ecosystem can fork for itself, (which it does, both *public* and *private*).  We can better tune in and curate the **official** `conversations` and `chats`. We're weightlessly gaining insight ourselves - asking the latest AI service for the latest answers.  It's in our hands, its in our customers hands.  It's quite the party, for everyone! But seriously, `rocketa` is a bit further... make a `rocketa` repo today, you'll see!" 
+> "Still maintaining a `FAQ` in *2025*!?  Still on *old* web forums?  Still not letting your ecosystem document for itself? Still not letting customers help others?  We hadn't realized the overhead of curating our forums and documents - what to release, where, how - frustrating ourselves and our customers.  Now the customer is always right - they can fork and share, and we can curate our side.  With the introduction of AI, the *answers* to the questions can evolve. Also, our ecosystem can fork for itself, (which it does, both *public* and *private*).  We can better tune in and curate the **official** `conversations` and `chats`. We're weightlessly gaining insight ourselves - asking the latest AI service for the latest answers.  It's in our hands, its in our customers hands.  It's quite the party, for everyone! But seriously, **rocketa** is a bit further... make a **rocketa** repo today, you'll see!" 
 --- 
 ~***Anne Bei***, *Support Specialist*, **AccentSuperCorp** *fake, but
 
@@ -57,7 +57,7 @@
         - the conversation to evolve
         - easy merging
 
-  - But why use *rocketa* convention?
+  - But why use **rocketa** convention?
     - Tools, tools, tools.  Imagine:
       - RSS-style updates when new releases occur
       - Browse public / private forks (internal and external)
@@ -70,7 +70,7 @@
       - Trustable transition flows due to *versioning* and *structure*
       - Still publishing FAQs? Why not *give away the questions* instead?
         - **In a format and structure** that *evolves* the conversation
-        - The spirit of `rocketa`
+        - The spirit of **rocketa**
           - **Constrained** answers: let your viewers choice of AI contribute (**as they evolve**)
           - Details, release convention format
             - `<` actual AI response (rare)
@@ -88,7 +88,7 @@
 # Showcase 
 > "Releasable, forkable conversations?  Groundwork for Prompt dependency resolution, of Prompts and Conversations?!  What a brave new world, Pete!  -- Jorge P."
 
-## Conventions summary - rocketa
+## Conventions summary
 - A *repo* of *versioned* `conversations`, `chats` and `prompts` that conforms to:
 - A very simple [format](https://github.com/nostogome/rocketa/format.md) for `chats`, `conversations` and other releases, like `prompts`, extendable.
 Following the [`frontmatter`](https://github.com/nostogome/rocketa/README.md#format-file) and a **summary** **markdown** sections` See [Format file](https://github.com/nostogome/rocketa/README.md#format-file), the conversations are easily viewable in markdown readers, with the following `reservations`
@@ -180,7 +180,7 @@ see [Files](#files)
 
 
 ## About automated citation and documentation rendering
-> Planned: The (rocketa) `artifact coordinate` in `metadata.md` is to allow for automated pulling or documentation rendering of `summary.md` and `metadata.md` documentation. Run at a specified level, it can document the underlying component (and potentially pull in referenced) (e.g. find all cites for 'artifact' would trigger a recursive compilations of citations in the version and hash directories (while potentially pulling 'dependencies' docs from the central [nostogome/rocketa](https://github.com/nostogome/rocketa) repo or external (depending on tool support, leveraging `repositories.md` or frontmatter).  
+> Planned: The (**rocketa**) `artifact coordinate` in `metadata.md` is to allow for automated pulling or documentation rendering of `summary.md` and `metadata.md` documentation. Run at a specified level, it can document the underlying component (and potentially pull in referenced) (e.g. find all cites for 'artifact' would trigger a recursive compilations of citations in the version and hash directories (while potentially pulling 'dependencies' docs from the central [nostogome/rocketa](https://github.com/nostogome/rocketa) repo or external (depending on tool support, leveraging `repositories.md` or frontmatter).  
 
 A basic documentation build tool outputs a tree structure (that orders by inclusion, then summary, then commit date).  Manual "overall" summary documentation exists in a separate file, `summary.md` which may exist also at each level - and is printed first in the automated tree of documentation, a respective levels
 
@@ -250,13 +250,13 @@ Links to projects that are > ~80% direct result of using existing (i.e. *committ
   - 
   | File               | Parsed by tooling | Found in  | Directory                                         | Description                                           | Thirdparty use                     | Master/Tool use                        |
   |--------------------|----------------------|-----------|---------------------------------------------------|-------------------------------------------------------|------------------------------------|----------------------------------------|
-  | `repository.md`    | Y | rocketa & topical      | / | name of the repo, policies                            | extend model references (namespaces), policies  | maintain model references |
-  | [`repositories.md`](#repositories-detail)  | Y | rocketa & topical | / | extended repo, for dependency system (incl doc tools) | extend known repositories          | same as thirdparty |
-  | `tools.md`         | T | rocketa & topical | / | description of tools available | extend / override tool information | describe tools available in base `nostogome/rocketa` | 
-  | `summary.md`       | T/C | rocketa & topical | *optional* Any/All level in `release dirs` | Manual summary, concatenated by doc tools, optional frontmatter | non-parse-tooling/concatenation | same as thirdparty |
-  | [`metadata.md`](#metadata-detail)      | T | rocketa & topical | *optional* Any/All level in `release dirs` | compliant frontmatter key/values, citations oriented | parse/tooling | same as thirdparty |
-  | [`format.md`](#format-file)        | Y | rocketa & topical | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
-  | [`current`](#pointer-file)        | T | rocketa & topical | Release dirs |  | 1-line file; contains 1 entry to most-recent subdir | Y/tools| none |
+  | `repository.md`    | Y | **rocketa** & `topical`      | / | name of the repo, policies                            | extend model references (namespaces), policies  | maintain model references |
+  | [`repositories.md`](#repositories-detail)  | Y | **rocketa** & `topical` | / | extended repo, for dependency system (incl doc tools) | extend known repositories          | same as thirdparty |
+  | `tools.md`         | T | **rocketa** & `topical` | / | description of tools available | extend / override tool information | describe tools available in base `nostogome/rocketa` | 
+  | `summary.md`       | T/C | **rocketa** & `topical` | *optional* Any/All level in `release dirs` | Manual summary, concatenated by doc tools, optional frontmatter | non-parse-tooling/concatenation | same as thirdparty |
+  | [`metadata.md`](#metadata-detail)      | T | **rocketa** & `topical` | *optional* Any/All level in `release dirs` | compliant frontmatter key/values, citations oriented | parse/tooling | same as thirdparty |
+  | [`format.md`](#format-file)        | Y | **rocketa** & `topical` | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
+  | [`current`](#pointer-file)        | T | **rocketa** & `topical` | Release dirs |  | 1-line file; contains 1 entry to most-recent subdir | Y/tools| none |
 
 `T` = `top` (aka `frontmatter`)
 `C` = non-parsed (likely concatenation)
@@ -419,6 +419,6 @@ You may be interested in [frontmatter keys](#frontmatter-keys)
 
 # License
 
-Most content released under MIT license with exception of the /site directory, and other branding-related content and images specific to github.com/nostogome/rocketa
+Most content released under MIT license with exception of the /site directory, and other branding-related content and images specific to [github.com/nostogome/rocketa](https://github.com/nostogome/rocketa)
 
 See [NOTICE](NOTICE), [LICENSE](LICENSE) for details
