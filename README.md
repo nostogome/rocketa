@@ -17,7 +17,7 @@
 ~***Anne Bei***, *Support Specialist*, **AccentSuperCorp** *fake, but
 
 ---
-> State of things: currently, encourages Maven-style versioning, and markdown-based repositories and `topical` [skeleton project](https://github.com/nostogome/rocketa-vanilla) - albeit without much actual dependency resolving, or even a tree-crawling documentation assembler, yet.
+>> State of things: currently, encourages Maven-style versioning, and markdown-based repositories and `topical` [template project](https://github.com/nostogome/rocketa-template) - albeit without much actual dependency resolving, or even a tree-crawling documentation assembler, yet.
  
 > *Note* this is a very new and evolving space.  Anything may change.
 
