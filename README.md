@@ -132,11 +132,14 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/REA
     - artifact+version+hash ([`prompts/org.nobodyknew/tdd/1.0.0/jih39`](prompts/org.nobodyknew/tdd/1.0.0/jih39))
 
 - ***Conversations/Chats*** = **formal**/**informal** (aka **documentation**/**forum**)
-  - example:
-    - group (all artifacts) ([`./conversations/org.nobodyknew/`](conversations/org.nobodyknew))
-    - artifact (all versions) ([`./conversations/org.nobodyknew/tdd/`](conversations/org.nobodyknew/tdd/)) 
-    - artifact+version ([`./conversations/org.nobodyknew/tdd/1.0.0`](conversations/org.nobodyknew/tdd/1.0.0))
-    - artifact+version+hash ([`./conversations/org.nobodyknew/tdd/1.0.0/394j5hSD`](conversations/org.nobodyknew/tdd/1.0.0/394j5hSD))
+  - example: ([`./conversations`](conversations/)) 
+    - group (all artifacts) ([`conversations/org.nobodyknew/`](conversations/org.nobodyknew))
+    - artifact (all versions) ([`conversations/org.nobodyknew/tdd/`](conversations/org.nobodyknew/tdd/)) 
+    - artifact+version ([`conversations/org.nobodyknew/tdd/1.0.0`](conversations/org.nobodyknew/tdd/1.0.0))
+    - artifact+version+hash ([`conversations/org.nobodyknew/tdd/1.0.0/394j5hSD`](conversations/org.nobodyknew/tdd/1.0.0/394j5hSD))
+
+  - example: ([`./chats`](chats/))
+    - etc, etc ... 
 
 # Versioning
 
