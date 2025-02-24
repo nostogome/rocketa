@@ -123,7 +123,7 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/REA
 - The main goal of this project is *to support* `topical repos` having a main goal of the [`prompts`](https://github.com/nostogome/rocketa/tree/main/prompts) 'artifacts' directory
 
 ## Details
-- ***Prompts*** = main goal ([`./prompts`](prompts/)) 
+- ***Prompts*** = AI prompts ([`./prompts`](prompts/)) 
   - example: ([`./prompts/org.nobodyknew`](prompts/org.nobodyknew/))
   - example: 
     - group (all artifacts) ([`./prompts/org.nobodyknew/`](conversations/org.nobodyknew))
@@ -131,7 +131,7 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/REA
     - artifact+version ([`./prompts/org.nobodyknew/tdd/1.0.0`](conversations/org.nobodyknew/tdd/1.0.0))
     - artifact+version+hash ([`./prompts/org.nobodyknew/tdd/1.0.0/jih39`](conversations/org.nobodyknew/tdd/1.0.0/ jih39))
    
-- ***Conversations/Chats*** = formal/informal
+- ***Conversations/Chats*** = formal/informal (aka documentation/forum)
   - example: 
     - group (all artifacts) ([`./conversations/org.nobodyknew/`](conversations/org.nobodyknew))
     - artifact (all versions) ([`./conversations/org.nobodyknew/tdd/`](conversations/org.nobodyknew/tdd/)) 
