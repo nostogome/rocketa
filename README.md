@@ -76,7 +76,8 @@
             - `<` actual AI response (rare)
             - `<-` human summary
             - `<--` human reaction/opinion (i.e. usually regarding nominal answer (AI/misconception battling) )
-        - See an [example chat](https://github.com/nostogome/rocketa/chats/1.0.0/TDD/AAA/chat.md)
+        - See an [example chat](https://github.com/nostogome/rocketa/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md) 
+          - aka "host[ /dir ]/user/reponame/[chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md](https://github.com/nostogome/rocketa/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md)"
 
 # Who are topical repositories for?
 > Use it to *convince*, to *bootstrap*, to *guide*, to *commiserate*
