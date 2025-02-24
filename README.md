@@ -124,15 +124,15 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/REA
 
 ## Details
 - ***Prompts*** = AI prompts ([`./prompts`](prompts/)) 
-  - example: ([`./prompts/org.nobodyknew`](prompts/org.nobodyknew/))
-  - example: 
-    - group (all artifacts) ([`./prompts/org.nobodyknew/`](conversations/org.nobodyknew))
-    - artifact (all versions) ([`./prompts/org.nobodyknew/tdd/`](conversations/org.nobodyknew/tdd/)) 
-    - artifact+version ([`./prompts/org.nobodyknew/tdd/1.0.0`](conversations/org.nobodyknew/tdd/1.0.0))
-    - artifact+version+hash ([`./prompts/org.nobodyknew/tdd/1.0.0/jih39`](conversations/org.nobodyknew/tdd/1.0.0/ jih39))
-   
-- ***Conversations/Chats*** = formal/informal (aka documentation/forum)
-  - example: 
+  - example: ([`prompts/org.nobodyknew`](prompts/org.nobodyknew/))
+  - example:
+    - group (all artifacts) ([`prompts/org.nobodyknew/`](prompts/org.nobodyknew))
+    - artifact (all versions) ([`prompts/org.nobodyknew/tdd/`](prompts/org.nobodyknew/tdd/)) 
+    - artifact+version ([`prompts/org.nobodyknew/tdd/1.0.0`](prompts/org.nobodyknew/tdd/1.0.0))
+    - artifact+version+hash ([`prompts/org.nobodyknew/tdd/1.0.0/jih39`](prompts/org.nobodyknew/tdd/1.0.0/jih39))
+
+- ***Conversations/Chats*** = **formal**/**informal** (aka **documentation**/**forum**)
+  - example:
     - group (all artifacts) ([`./conversations/org.nobodyknew/`](conversations/org.nobodyknew))
     - artifact (all versions) ([`./conversations/org.nobodyknew/tdd/`](conversations/org.nobodyknew/tdd/)) 
     - artifact+version ([`./conversations/org.nobodyknew/tdd/1.0.0`](conversations/org.nobodyknew/tdd/1.0.0))
