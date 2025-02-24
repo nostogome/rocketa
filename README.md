@@ -76,8 +76,8 @@
             - `<` actual AI response (rare)
             - `<-` human summary
             - `<--` human reaction/opinion (i.e. usually regarding nominal answer (AI/misconception battling) )
-        - See an [example chat](https://github.com/nostogome/rocketa/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md) 
-          - aka "host[ /dir ]/user/reponame/[chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md](https://github.com/nostogome/rocketa/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md)"
+        - See an [example chat](https://github.com/nostogome/rocketa/tree/main/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md) 
+          - aka "host[ /dir ]/user/reponame/[chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md](https://github.com/nostogome/rocketa/tree/main/chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md)"
 
 # Who are topical repositories for?
 > Use it to *convince*, to *bootstrap*, to *guide*, to *commiserate*
@@ -149,7 +149,7 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/README.md#for
     - *Note* for those familiar with `coordinate-based` *dependency systems*, note a mindset change.  Unlike traditional use of hashes in software development (usually used for SNAPSHOTs), conversation iteration is just better at an accute level, where almost every word matters, contrasted with compatibility concerns of more traditional software development.
 
 
-The ***main goal*** of the [nostogome/rocketa project](https://github.com/nostogome/rocketa) is the [`prompts`](https://github.com/nostogome/rocketa/prompts) ('artifacts') directory
+The ***main goal*** of the [nostogome/rocketa project](https://github.com/nostogome/rocketa) is the [`prompts`](https://github.com/nostogome/rocketa/tree/main/prompts) ('artifacts') directory
 
 ## Quick example, chats
 See [chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md](chats/org.nobodyknew/tdd/1.0.0/AAA/chat.md) 
@@ -210,12 +210,12 @@ Examples:
        - **all** `summary.md`
        - **all** `metadata.md`
  - **format** of `release files`
-   - **comply** with the *master* [format.md](https://github.com/nostogome/rocketa/format.md)
+   - **comply** with the *master* [format.md](https://github.com/nostogome/rocketa/tree/main/format.md)
      - if `schema-id` supplied, *optional* in frontmatter
        - `schema-id` format is: `"<host>/<user>/<repo>:tag"` (e.g. `"github.com/nostagome/rocketa:v1"`)
          - `tag` name must include (`v`+ *one number* ] or [Maven-style](#versioning) "`1.0.0[-qualifier]`" to enable tooling
          - `tag` is a `git mechanism`
- - In any other case, fall back to [nostogome/rocketa spec](https://github.com/nostogome/rocketa/README.md)
+ - In any other case, fall back to [nostogome/rocketa spec](https://github.com/nostogome/rocketa/tree/main/README.md)
 
 # Topical Repos
   - for a curated list, see the table in the respective `repositories.md`
@@ -224,7 +224,7 @@ Examples:
 # Topical Examples
 
 ## Downstream
-Links to projects that are > ~80% direct result of using existing (i.e. *committed*) prompts [nostogome/rocketa/prompts](https://github.com/nostogome/rocketa/prompts).  Topical repositories may or may not choose have this policy.
+Links to projects that are > ~80% direct result of using existing (i.e. *committed*) prompts [nostogome/rocketa/prompts](https://github.com/nostogome/rocketa/tree/main/prompts).  Topical repositories may or may not choose have this policy.
 
 | Name | URL | Description | Use | Replaces target | Results |
 |------|-----|-------------|-----|-----------------|---------|
@@ -256,7 +256,7 @@ Links to projects that are > ~80% direct result of using existing (i.e. *committ
   | `tools.md`         | T | **rocketa** & `topical` | / | description of tools available | extend / override tool information | describe tools available in base `nostogome/rocketa` | 
   | `summary.md`       | T/C | **rocketa** & `topical` | *optional* Any/All level in `release dirs` | Manual summary, concatenated by doc tools, optional frontmatter | non-parse-tooling/concatenation | same as thirdparty |
   | [`metadata.md`](#metadata-detail)      | T | **rocketa** & `topical` | *optional* Any/All level in `release dirs` | compliant frontmatter key/values, citations oriented | parse/tooling | same as thirdparty |
-  | [`format.md`](#format-file)        | Y | **rocketa** & `topical` | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
+  | [`format.md`](#format-file)        | Y | **rocketa** & `topical` | /, and `release dirs` | reservations made in [master format.md](https://github.com/nostogome/rocketa/tree/main/format.md), otherwise extendable base for `release files`' format | Tools (PR/auto pulls) |  none |
   | [`current`](#pointer-file)        | T | **rocketa** & `topical` | Release dirs |  | 1-line file; contains 1 entry to most-recent subdir | Y/tools| none |
 
 `T` = `top` (aka `frontmatter`)
@@ -290,7 +290,7 @@ You may be interested in [frontmatter keys](#frontmatter-keys)
 ## Format file
 Basic reservations and recommendations for the `chats`, `conversations` and `prompts` release files, commonly named `chat.md`, `prompt.md`
 
- - [Compliant](#compilant-repos) `topical repositories` will waive (if not **stay updated with**) `reservations` made by the **master** `format.md`: [https://github.com/nostogome/rocketa/format.md](https://github.com/nostogome/rocketa/format.md). 
+ - [Compliant](#compilant-repos) `topical repositories` will waive (if not **stay updated with**) `reservations` made by the **master** `format.md`: [https://github.com/nostogome/rocketa/tree/main/format.md](https://github.com/nostogome/rocketa/tree/main/format.md). 
  - Topical repo *root* `/format.md` can be modified in `topical repositories`, and may exist at `group` and `artifact` *levels*
 
  - Common layout: markdown sections (i.e. "---")
