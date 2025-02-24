@@ -119,7 +119,7 @@ Following the [`frontmatter`](https://github.com/nostogome/rocketa/tree/main/REA
 
 ## Repository Goals'
  - *"This repo is not a topical repo, but may contain sample `chats`, `conversations` and `prompts`, or with itself as the subject"*
-    - See [repository.md](tree/main/repository.md) for more information
+    - See [repository.md](https://github.com/nostogome/rocketa/tree/main/repository.md) for more information
 - The main goal of this project is *to support* `topical repos` having a main goal of the [`prompts`](https://github.com/nostogome/rocketa/tree/main/prompts) 'artifacts' directory
 
 ## Details
